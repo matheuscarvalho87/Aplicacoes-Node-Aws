@@ -65,7 +65,7 @@ class Handler{
       }
     }).promise()
 
-    console.log({ result })
+    console.log(result.Labels)
   }
   async main(event){
     try {
